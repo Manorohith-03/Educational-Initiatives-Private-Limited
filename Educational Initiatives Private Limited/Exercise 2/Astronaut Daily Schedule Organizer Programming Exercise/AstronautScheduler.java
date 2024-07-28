@@ -112,3 +112,68 @@ public class AstronautScheduler {
         }
     }
 }
+
+/*
+Sample Input and Output:
+Choose an option: 
+1. Add Task
+2. Remove Task
+3. View All Tasks
+4. View Tasks by Priority
+5. Exit
+Enter your choice: 1
+Enter description: meeting
+Enter start time (HH:mm): 09:00
+Enter end time (HH:mm): 10:00
+Enter priority (High/Medium/Low): medium
+Task added successfully. No conflicts.
+
+Choose an option: 
+1. Add Task
+2. Remove Task
+3. View All Tasks
+4. View Tasks by Priority
+5. Exit
+Enter your choice: 1
+Enter description: conference
+Enter start time (HH:mm): 09:00
+Enter end time (HH:mm): 10:00
+Enter priority (High/Medium/Low): high
+Task added successfully. No conflicts.
+
+Choose an option: 
+1. Add Task
+2. Remove Task
+3. View All Tasks
+4. View Tasks by Priority
+5. Exit
+Enter your choice: 1
+Enter description: call
+Enter start time (HH:mm): 09:00
+Enter end time (HH:mm): 10:00
+Enter priority (High/Medium/Low): low
+Error: Task conflicts with existing task "conference" and has lower or equal priority.
+
+Choose an option: 
+1. Add Task
+2. Remove Task
+3. View All Tasks
+4. View Tasks by Priority
+5. Exit
+Enter your choice: 1
+Enter description: review
+Enter start time (HH:mm): 09:30
+Enter end time (HH:mm): 10:30
+Enter priority (High/Medium/Low): medium
+Error: Task conflicts with existing task "conference".
+
+Choose an option: 
+1. Add Task
+2. Remove Task
+3. View All Tasks
+4. View Tasks by Priority
+5. Exit
+Enter your choice: 3
+09:00 - 10:00: conference [high]
+*/
+
